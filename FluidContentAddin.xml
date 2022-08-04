@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:cb85b82c-f585-40ff-83fc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ContentApp">
+  <Id>fffc35ac-63ab-4309-ace0-344998355FFF</Id>
+  <Version>1.1.0.0</Version>
+  <ProviderName>qichen</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Fluid PPT Live Test Content Addin" />
+  <Description DefaultValue="For PPT Live Test, using Fluid as sync pipeline."/>
+	<IconUrl DefaultValue="https://jackychen.azurewebsites.net/agaves/testapps/app/home/icon32.png" />
+	<SupportUrl DefaultValue="https://github.com/OfficeDev/Office-Add-in-Commands-Samples" />
+	<AppDomains>
+		<AppDomain>jackychen.azurewebsites.net</AppDomain>
+		<AppDomain>officedev.github.io</AppDomain>
+		<AppDomain>cfsample.azurewebsites.net</AppDomain>
+    <AppDomain>fluidaddin.azurewebsites.net</AppDomain>
+	</AppDomains>
+  <Hosts>
+    <Host Name="Presentation"/>
+  </Hosts>
+  <DefaultSettings>
+		<!-- <SourceLocation DefaultValue="https://jackychen.azurewebsites.net/agaves/testapps/app/FluidAddin/FluidAddin.html" /> -->
+    <SourceLocation DefaultValue="https://fluidaddin.azurewebsites.net/" />
+    <!-- <SourceLocation DefaultValue="https://wikipedia.org" /> -->
+
+    <RequestedWidth>2000</RequestedWidth>
+    <RequestedHeight>1100</RequestedHeight>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
